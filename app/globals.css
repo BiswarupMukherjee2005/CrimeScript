@@ -1,12 +1,31 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 :root {
   --background: #0d0b18;
   --foreground: #e8e0f5;
+
+  --cs-surface: rgba(26, 20, 48, 0.85);
+  --cs-surface2: rgba(38, 28, 68, 0.7);
+
+  --cs-border: rgba(140, 100, 220, 0.18);
+  --cs-border2: rgba(160, 120, 240, 0.32);
+
+  --cs-purple: #7c5cbf;
+  --cs-purple2: #a67de8;
+  --cs-purple3: #c4a4f5;
+
+  --cs-accent: #b388f0;
+  --cs-muted: rgba(200, 180, 240, 0.55);
+
+  --cs-safe: #70c896;
+  --cs-suspect: #f0c060;
+  --cs-danger: #e87070;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}  
+  min-height: 100vh;
+}
